@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bank_db
+    username: root
+    password: Harsha@632001
+  jpa:
+    hibernate:
+      ddl-auto: update  # Change this to 'update' to persist schema changes without dropping
